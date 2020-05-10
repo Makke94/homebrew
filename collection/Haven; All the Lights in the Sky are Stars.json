@@ -1756,7 +1756,7 @@
 								"name": "Starline",
 								"entries": [
 									"At 2nd level, your stellar powers allow you to create your own constellations. As a bonus action, you can place a mote of starlight in an unoccupied space within 5 feet of you. This mote emits dim light in a 5-foot radius, and lasts for 1 minute. You can have a number of motes equal to 1 plus half your druid level.",
-									"As an action, you can form strands of starlight between all motes within 60 feet of you. If two motes are separated by a barrier or other solid object, the strand between them will not form. If a strand passes through a creature, that creature must make a Dexterity saving throw against your druid spell save DC, taking {@damage 1d10} radiant damage for each mote placed on a failed save. Once you use this action, all the motes disappear."
+									"As an action, you can form strands of starlight between all motes created by this feature within 60 feet of you. If two motes are separated by a barrier or other solid object, the strand between them will not form. If a strand passes through a creature, that creature must make a Dexterity saving throw against your druid spell save DC, taking {@damage 1d10} radiant damage for each mote placed on a failed save. Once you use this action, all the motes disappear."
 								]
 							}
 						]
