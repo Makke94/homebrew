@@ -450,10 +450,16 @@
 										{
 											"entries": [
 												"An abberation, beast, humanoid, giant, or monstrosity can become a constellate creature. When a creature becomes constellate, it retains all its statistics except as noted below.",
-												{
+													{
+														"name": "Type",
+														"entries": [
+															"The creature becomes a celestial instead of its normal type."
+														]
+													},
+													{
 													"name": "Senses",
 													"entries": [
-														"The creature gains darkvision with a radius of 60 feet."
+														"The creature gains darkvision out to a radius of 60 feet."
 													]
 												},
 												{
@@ -483,7 +489,7 @@
 												{
 													"name": "New Action: Detonate Star Mote",
 													"entries": [
-														"The creature can cause any number of motes it created within 60 feet of it to explode. Each creature within 5 feet of a mote must make on a Dexterity saving throw or take 2d6 radiant damage. A creature in the area of more than one mote burst is affected only once. The DC for this saving throw is equal to 8 + the creature's proficiency bonus + the creature's Constitution modifier."
+														"The creature can cause any number of motes it created within 60 feet of it to explode. Each creature within 5 feet of a mote must succeed on a Dexterity saving throw or take 2d6 radiant damage. A creature in the area of more than one mote burst is affected only once. The DC for this saving throw is equal to 8 + the creature's proficiency bonus + the creature's Constitution modifier."
 													]
 												},
 												{
@@ -505,7 +511,7 @@
 														"source": "ATLAS",
 														"page": 34,
 														"size": "M",
-														"type": "humanoid",
+														"type": "celestial",
 														"alignment": [
 															"A"
 														],
@@ -584,7 +590,7 @@
 															{
 																"name": "Detonate Star Mote",
 																"entries": [
-																	"The archer can cause any number of motes it created within 60 feet of it to explode. Each creature within 5 feet of a mote must make on a DC 13 Dexterity saving throw or take 7 ({@damage 2d6}) radiant damage. A creature in the area of more than one mote burst is affected only once."
+																	"The archer can cause any number of motes it created within 60 feet of it to explode. Each creature within 5 feet of a mote must succeed on a DC 13 Dexterity saving throw or take 7 ({@damage 2d6}) radiant damage. A creature in the area of more than one mote burst is affected only once."
 																]
 															},
 															{
@@ -609,7 +615,7 @@
 														"source": "ATLAS",
 														"page": 35,
 														"size": "L",
-														"type": "beast",
+														"type": "celestial",
 														"alignment": [
 															"U"
 														],
@@ -696,7 +702,7 @@
 															{
 																"name": "Detonate Star Mote",
 																"entries": [
-																	"The lion can cause any number of motes it created within 60 feet of it to explode. Each creature within 5 feet of a mote must make on a DC 11 Dexterity saving throw or take 7 ({@damage 2d6}) radiant damage. A creature in the area of more than one mote burst is affected only once."
+																	"The lion can cause any number of motes it created within 60 feet of it to explode. Each creature within 5 feet of a mote must succeed on a DC 11 Dexterity saving throw or take 7 ({@damage 2d6}) radiant damage. A creature in the area of more than one mote burst is affected only once."
 																]
 															},
 															{
@@ -2697,7 +2703,7 @@
 								"name": "Spell Stars",
 								"entries": [
 									"Also, at 2nd level, you can conjure forth stars when you cast a spell of 1st level or higher. When you do so, you choose an unoccupied space within range of the spell, and a spell star appears at the point for 1 minute. The spell star provides bright light in a 10-foot radius and dim light for an additional 10 feet. You can have a number of spell stars at once equal to half your wizard level. While you are within 60 feet of a spell star, you can cast spells as though you were in the spell star's space.",
-									"Additionally, you can use your bonus action to cause any number of spell stars within 60 feet of yourself explode. Each creature within 5 feet of a spell star must make on a Dexterity saving throw against your wizard spell save DC or take {@damage 2d6} radiant damage. A creature in the area of more than one spell star burst is affected only once."
+									"Additionally, you can use your bonus action to cause any number of spell stars within 60 feet of yourself explode. Each creature within 5 feet of a spell star must succeed on a Dexterity saving throw against your wizard spell save DC or take {@damage 2d6} radiant damage. A creature in the area of more than one spell star burst is affected only once."
 								]
 							}
 						]
@@ -5560,7 +5566,7 @@
 				{
 					"name": "Detonate Star Mote",
 					"entries": [
-						"The archer can cause any number of motes it created within 60 feet of it to explode. Each creature within 5 feet of a mote must make on a {@dc 13} Dexterity saving throw or take 7 ({@damage 2d6}) radiant damage. A creature in the area of more than one mote burst is affected only once."
+						"The archer can cause any number of motes it created within 60 feet of it to explode. Each creature within 5 feet of a mote must succeed on a {@dc 13} Dexterity saving throw or take 7 ({@damage 2d6}) radiant damage. A creature in the area of more than one mote burst is affected only once."
 					]
 				},
 				{
@@ -5594,9 +5600,16 @@
 					},
 					{
 						"type": "entries",
+						"name": "Type",
+						"entries": [
+							"The creature becomes a celestial instead of its normal type."
+						]
+					},
+					{
+						"type": "entries",
 						"name": "Senses",
 						"entries": [
-							"The creature gains darkvision with a radius of 60 feet."
+							"The creature gains darkvision out to a radius of 60 feet."
 						]
 					},
 					{
@@ -5631,7 +5644,7 @@
 						"type": "entries",
 						"name": "New Action: Detonate Star Mote",
 						"entries": [
-							"The creature can cause any number of motes it created within 60 feet of it to explode. Each creature within 5 feet of a mote must make on a Dexterity saving throw or take 2d6 radiant damage. A creature in the area of more than one mote burst is affected only once. The DC for this saving throw is equal to 8 + the creature's proficiency bonus + the creature's Constitution modifier."
+							"The creature can cause any number of motes it created within 60 feet of it to explode. Each creature within 5 feet of a mote must succeed on a Dexterity saving throw or take 2d6 radiant damage. A creature in the area of more than one mote burst is affected only once. The DC for this saving throw is equal to 8 + the creature's proficiency bonus + the creature's Constitution modifier."
 						]
 					},
 					{
@@ -5753,7 +5766,7 @@
 				{
 					"name": "Detonate Star Mote",
 					"entries": [
-						"The lion can cause any number of motes it created within 60 feet of it to explode. Each creature within 5 feet of a mote must make on a {@dc 11} Dexterity saving throw or take 7 ({@damage 2d6}) radiant damage. A creature in the area of more than one mote burst is affected only once."
+						"The lion can cause any number of motes it created within 60 feet of it to explode. Each creature within 5 feet of a mote must suceed on a {@dc 11} Dexterity saving throw or take 7 ({@damage 2d6}) radiant damage. A creature in the area of more than one mote burst is affected only once."
 					]
 				},
 				{
@@ -5784,9 +5797,16 @@
 					},
 					{
 						"type": "entries",
+						"name": "Type",
+						"entries": [
+							"The creature becomes a celestial instead of its normal type."
+						]
+					},
+					{
+						"type": "entries",
 						"name": "Senses",
 						"entries": [
-							"The creature gains darkvision with a radius of 60 feet."
+							"The creature gains darkvision out to a radius of 60 feet."
 						]
 					},
 					{
@@ -5821,7 +5841,7 @@
 						"type": "entries",
 						"name": "New Action: Detonate Star Mote",
 						"entries": [
-							"The creature can cause any number of motes it created within 60 feet of it to explode. Each creature within 5 feet of a mote must make on a Dexterity saving throw or take 2d6 radiant damage. A creature in the area of more than one mote burst is affected only once. The DC for this saving throw is equal to 8 + the creature's proficiency bonus + the creature's Constitution modifier."
+							"The creature can cause any number of motes it created within 60 feet of it to explode. Each creature within 5 feet of a mote must suceed on a Dexterity saving throw or take 2d6 radiant damage. A creature in the area of more than one mote burst is affected only once. The DC for this saving throw is equal to 8 + the creature's proficiency bonus + the creature's Constitution modifier."
 						]
 					},
 					{
